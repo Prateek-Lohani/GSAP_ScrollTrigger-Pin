@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body,html{
+  width:100%;
+  height:100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+  width:100%;
+  height:100%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.page1,.page2,.page3,.page4,.page5{
+  width:100%;
+  height:100%
+}
+
+.page1{
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.page1 h1{
+  position: relative;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-size: 5vw;
+  font-family: cursive;
+  color: whitesmoke;
+}
+
+.page2{
+  background-color: black;
+}
+
+.page3{
+  background-color: black;
+}
+
+img{
+  height:100%;
+  width:10%;
+  object-fit: cover;
+  position: relative;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.page4{
+  background-color: black;
+}
+
+.page4 h1{
+  color: white;
+  font-size: 42vw;
+  position: relative;
+  top:-20%;
+}
+
+.page5{
+ background-color: rgba(0, 0, 0, 0.555);;
+}
