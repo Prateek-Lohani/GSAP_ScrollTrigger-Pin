@@ -25,7 +25,8 @@ body{
 }
 
 .page1{
-  background-color: rgba(0, 0, 0, 0.555);
+/*   background-color: rgba(0, 0, 0, 0.555); */
+  background-color:black;
 }
 
 .page1 h1{
